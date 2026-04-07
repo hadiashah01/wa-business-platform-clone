@@ -28,6 +28,7 @@ a {
 }
 .flex {
   display: flex;
+  align-items: center;
 }
 .meta-logo {
   height: 30px;
