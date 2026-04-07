@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.white_header {
+  background-color: white;
+}
+.green_header {
+  background-color: rgb(8, 46, 17);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
