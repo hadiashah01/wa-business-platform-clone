@@ -3,11 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family:
+    Helvetica Neue,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
 .white_header {
   background-color: white;
 }
-.green_header {
-  background-color: rgb(8, 46, 17);
+.bg-green {
+  background-color: rgb(20, 67, 44);
+  color: white;
 }
 li {
   list-style: none;
@@ -16,5 +26,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-
+.flex {
+  display: flex;
+}
+.meta-logo {
+  height: 30px;
+}
+.WA-logo {
+  height: 30px;
+}
