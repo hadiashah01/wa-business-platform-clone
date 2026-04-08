@@ -14,7 +14,7 @@ body {
 
 .white_header {
   height: 54px;
-  padding-block: 4px 0;
+  padding: 10px;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -32,7 +32,6 @@ a {
 .flex {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 .meta-logo {
   height: 34px;
@@ -41,7 +40,7 @@ a {
 .WA-logo {
   height: 30px;
   padding-right: 7em;
-  padding-left: 24px;
+  padding-left: 30px;
 }
 .green_header {
   height: 120px;
@@ -49,8 +48,29 @@ a {
   max-width: 1440px;
 }
 .nav {
-  gap: 4em;
+  gap: 5em;
+  margin-right: 80px;
 }
 .wrap {
-  gap: 4em;
+  gap: 0.5em;
+}
+.btn {
+  background-color: #43cd66;
+  color: #103928;
+  width: 180px;
+  height: 63px;
+  border-radius: 50px;
+  justify-content: center;
+}
+.search-bar {
+  width: 47px;
+  height: 47px;
+  aspect-ratio: 1/1;
+  margin-right: .7em;
+  justify-content: center;
+}
+.white-btn {
+  background-color: white;
+  width: 200px;
+  border: 1px solid #43cd66;
 }
