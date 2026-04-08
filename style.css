@@ -13,10 +13,13 @@ body {
 }
 
 .white_header {
-  background-color: white;
+  height: 54px;
+  padding-block: 4px 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .bg-green {
-  background-color: rgb(20, 67, 44);
+  background-color: #103928;
   color: white;
 }
 li {
@@ -29,10 +32,25 @@ a {
 .flex {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 .meta-logo {
-  height: 30px;
+  height: 34px;
+  margin: 0 24px;
 }
 .WA-logo {
   height: 30px;
+  padding-right: 7em;
+  padding-left: 24px;
+}
+.green_header {
+  height: 120px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.nav {
+  gap: 4em;
+}
+.wrap {
+  gap: 4em;
 }
