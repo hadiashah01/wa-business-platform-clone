@@ -66,11 +66,22 @@ a {
   width: 47px;
   height: 47px;
   aspect-ratio: 1/1;
-  margin-right: .7em;
+  margin-right: 0.7em;
   justify-content: center;
 }
 .white-btn {
   background-color: white;
   width: 200px;
   border: 1px solid #43cd66;
+}
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 56px;
+}
+.footer-top__logo {
+  height: 30px;
+}
+.footer__divider {
+  margin-block: 55px;
 }
