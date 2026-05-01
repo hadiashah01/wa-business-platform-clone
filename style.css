@@ -83,12 +83,12 @@ a {
   margin: 0 auto;
   padding: 56px;
 }
-.footer__top{
+.footer__top {
   gap: 150px;
-  align-items : flex-start;
+  align-items: flex-start;
 }
 .footer-top__brand {
-  margin-right: 300px;
+  margin-right: 350px;
 }
 .footer-top__logo {
   height: 30px;
@@ -99,11 +99,11 @@ a {
   margin-top: 30px;
 }
 .footer-top__link {
- min-width: 48px;
- min-height: 48px;
- padding: 15px;
- border: 1px solid white;
- border-radius: 50%;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 .footer-top__link:first-child {
   padding: 8px;
@@ -114,4 +114,16 @@ a {
 .footer-links {
   margin-top: 30px;
   gap: 17px;
+}
+
+.footer-top__nav-column > h6 {
+  font-size: 15px;
+  color: #E6FFDA;
+}
+.footer-bottom {
+  justify-content: space-between;
+}
+.lang-selector {
+   gap: 10px ;
+   color: white;
 }
