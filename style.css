@@ -131,3 +131,13 @@ a {
   line-height: 1.2;
   margin-bottom: 30px;
 }
+.hero__text {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+.cta__btns {
+  gap: 20px;
+  font-weight: 500;
+}
