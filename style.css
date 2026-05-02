@@ -15,8 +15,6 @@ body {
 .white_header {
   height: 54px;
   padding: 10px;
-  margin: 0 auto;
-  max-width: 1440px;
 }
 .bg-green {
   background-color: #103928;
@@ -47,9 +45,7 @@ a {
   padding-left: 30px;
 }
 .green_header {
-  height: 120px;
-  margin: 0 auto;
-  max-width: 1440px;
+  height: 120px;;
 }
 .nav {
   gap: 5em;
@@ -79,8 +75,6 @@ a {
   border: 1px solid #43cd66;
 }
 .footer {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 56px;
 }
 .footer__top {
@@ -126,4 +120,14 @@ a {
 .lang-selector {
    gap: 10px ;
    color: white;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hero__title {
+  font-size: 1.7em;
+  color: #25d366;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
