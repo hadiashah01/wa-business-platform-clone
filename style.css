@@ -150,14 +150,13 @@ a {
   gap: 20px;
   font-weight: 500;
 }
-.hero__image,
-.use-cases__img {
+.hero__image {
   width: 100%;
   height: 100%;
 }
 .hero__image > img,
 .use-cases__img > img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   border-radius: 25px;
 }
@@ -229,6 +228,34 @@ a {
   line-height: 1.2;
 }
 .use-cases__content {
-  padding-left: 80px;
   gap: 20px;
+  max-width: 45%;
+}
+.use-cases__img {
+  max-width: 60%;
+}
+.use-cases__img > img {
+  max-height: 700px;
+}
+.use-cases__item {
+  margin-bottom: 60px;
+  gap: 80px;
+}
+.use-cases__item-reverse {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.use-cases__item-reverse > .use-cases__img {
+  max-width: 50%;
+}
+.use-cases__content > ul > li {
+  list-style-type: disc;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+.use-cases__content > ul {
+  padding-left: 30px;
+}
+.use-cases__content > p {
+  font-size: 1.2em;
 }
