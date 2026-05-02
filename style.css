@@ -178,4 +178,31 @@ a {
   font-size: 1.15em ;
   margin-bottom: 20px;
 }
-  
+.features {
+  align-items: center;
+  color: #103928;
+  line-height: 1.2;
+}
+.features__title {
+  margin-block: 80px;
+  font-weight: 500;
+  font-size: 3em;
+}
+.features__card-title {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+.features__card-text {
+  line-height: 1.5;
+  color: 1c1e21;
+  max-width: 85%;
+}
+.features__cards {
+  gap:10px;
+  justify-content: center;
+}
+.features__card {
+  max-width: 25%;
+  flex-grow: 1;
+}
+
