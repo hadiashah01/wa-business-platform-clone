@@ -159,4 +159,7 @@ a {
    border: 5px solid  #103928;
   border-radius: 25px;
 }
+.hero__container {
+  padding-block: 100px;
+}
 
