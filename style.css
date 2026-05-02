@@ -150,14 +150,15 @@ a {
   gap: 20px;
   font-weight: 500;
 }
-.hero__image {
+.hero__image,
+.use-cases__img {
   width: 100%;
   height: 100%;
 }
-.hero__image > img {
+.hero__image > img,
+.use-cases__img > img {
   width: 100%;
   height: 100%;
-  border: 1px solid #103928;
   border-radius: 25px;
 }
 .hero__container {
@@ -215,4 +216,19 @@ a {
   padding-bottom: 70px;
   box-shadow: 10px 10px 34px 0px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
+}
+.use-cases__cta > .btn {
+  width: 270px;
+  font-weight: 500;
+}
+.use-cases__heading {
+  font-size: 2.4em;
+  font-weight: 500;
+  color: #103928;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.use-cases__content {
+  padding-left: 80px;
+  gap: 20px;
 }
