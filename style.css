@@ -182,11 +182,15 @@ a {
   align-items: center;
   color: #103928;
   line-height: 1.2;
+  margin-bottom: 160px;
 }
-.features__title {
+.features__title,
+.use-cases__title {
   margin-block: 80px;
   font-weight: 500;
   font-size: 3em;
+  text-align: center;
+  line-height: 1.2;
 }
 .features__card-title {
   font-size: 1.5em;
