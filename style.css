@@ -14,7 +14,6 @@ body {
 
 .white_header {
   height: 54px;
-  padding: 10px;
 }
 .bg-green {
   background-color: #103928;
@@ -36,20 +35,19 @@ a {
   align-items: flex-start;
 }
 .meta-logo {
-  height: 34px;
-  margin: 0 24px;
+  height: 55px;
+  margin: 0 10px;
 }
 .WA-logo {
   height: 30px;
-  padding-right: 7em;
-  padding-left: 30px;
+  padding-right: 18em;
 }
 .green_header {
   height: 120px;
 }
 .nav {
   gap: 5em;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 .wrap {
   gap: 0.5em;
