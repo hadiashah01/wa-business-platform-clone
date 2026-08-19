@@ -51,6 +51,7 @@ a {
 .nav {
   gap: 3em;
   margin-right: 40px;
+  font-weight: 500;
 }
 .wrap {
   gap: 0.5em;
