@@ -16,6 +16,8 @@ A frontend recreation of the WhatsApp Business Platform website, built with sema
 
 ## Live Demo
 
+Click the preview to visit the live demo 👇
+
 [![View Live Demo](./preview.png)](https://hadiashah01.github.io/wa-business-platform-clone/)
 
 ## Features
